@@ -445,6 +445,8 @@ blockquote span {
 }
 
 .post img {
+  width: 21.538rem;
+  height: 6.15rem;
   margin-bottom: 30px;
 }
 .post p {
