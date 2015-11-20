@@ -221,26 +221,6 @@ blockquote span {
   font-weight: 600;
 }
 
-/*.button {
-  border-radius: 5px;
-  font-weight: 800;
-  padding: 12px 0;
-  width: 280px;
-  font-size: 28px;
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-}
-.yellow {
-  background: #f9e42e;
-  color: #033048;
-}
-.blue {
-  background: #033048;
-  color: #fff;
-  font-size: 24px;
-}*/
-
 #sidebar h3 {
   font-size: 32px;
   font-weight: 800;
@@ -299,12 +279,9 @@ footer p {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
 body {
-  font-size: .8rem;
-  line-height: 1.4;
-  color: #606161;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: .9em;
   font-weight: 300;
 }
 
@@ -316,32 +293,23 @@ a {
 /* Center the container */
 .container {
   width: 29.53rem;
-  margin: 0 auto;
 }
+
 .logo {
-  font-size: 1.84rem;
+  font-size: 1.84em;
   font-weight: 800;
 }
 
 header {
-  background: #033048;
   padding: 25px 0;
   overflow: hidden;
 }
-header .logo {
-  color: #fff;
-  float: left;
+
+
+header nav ul li {
+  font-size: .95em;
 }
 
-header nav {
-  float: right;
-  margin-top: 15px;
-}
-header nav ul li {
-  display: inline-block;
-  margin: 0 0 0 40px;
-  font-size: .92rem;
-}
 header nav ul li a {
   color: #f9e42e;
 }
@@ -472,26 +440,6 @@ blockquote span {
   font-weight: 600;
 }
 
-/*.button {
-  border-radius: 5px;
-  font-weight: 800;
-  padding: 12px 0;
-  width: 280px;
-  font-size: 28px;
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-}
-.yellow {
-  background: #f9e42e;
-  color: #033048;
-}
-.blue {
-  background: #033048;
-  color: #fff;
-  font-size: 24px;
-}*/
-
 #sidebar h3 {
   font-size: 1.23rem;
   font-weight: 800;
@@ -539,5 +487,43 @@ footer p {
   font-size: .7rem;
   color: #fff;
   font-weight: 600;
+}
+}
+
+@media (max-width: 500px) {
+
+  body {
+    font-size: .6rem;
+}
+
+.logo {
+  margin-left: 5%;
+}
+header nav {
+  margin-right: 20%
+}
+header nav ul li {
+  font-size: .7rem;
+}
+
+#hero h2 {
+  margin-right: 15%;
+  font-size: 1.4rem;
+}
+
+.yellow {
+  margin-left: 13%;
+}
+.container h3 {
+  margin-left: 5%;
+}
+#benefits p{
+  width: 350px;
+  margin-left: 5%;
+}
+blockquote {
+  width: 17.3rem;
+  margin-left: 13%;
+}
 }
   
